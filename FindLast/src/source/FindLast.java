@@ -24,7 +24,7 @@ public class FindLast
   public static int findLast(int[] x, int y)
   {
     // As the example in the book points out, this loop should end at 0.
-    for (int i = x.length - 1; i >=  0; i--)
+    for (int i = x.length - 1; i > 0; i--)
     {
       if (x[i] == y)
       {
